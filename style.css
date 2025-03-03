@@ -125,7 +125,8 @@ a {
 .about-me-section {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 8px;
+  margin-top: -40px;
   /* background-color: rebeccapurple; */
   /* display: none; */
 }

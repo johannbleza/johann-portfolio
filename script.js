@@ -123,7 +123,7 @@ gsap.from(".timeline-line", {
     trigger: ".education-block",
     toggleActions: "play none none reverse",
   },
-  y: -200,
+  y: -400,
   scaleY: 0,
   transformOrigin: "top bottom",
 });

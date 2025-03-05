@@ -49,6 +49,27 @@ gsap.from(".mouse", {
   scale: 0,
 });
 
+gsap.from(".about", {
+  scrollTrigger: {
+    trigger: ".about",
+    toggleActions: "play reverse restart none",
+  },
+  x: 200,
+  stagger: 0.2,
+  opacity: 0,
+});
+
+gsap.from(".hobby", {
+  scrollTrigger: {
+    trigger: ".profile-img",
+    toggleActions: "play reverse restart none",
+  },
+  x: 300,
+  duration: 1,
+  stagger: 0.2,
+  opacity: 0,
+});
+
 gsap.from(".nav-links", {
   scrollTrigger: {
     trigger: ".greeting",

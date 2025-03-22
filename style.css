@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Inter";
 }
 
 a {
@@ -17,16 +18,9 @@ a {
 }
 
 /* Fonts */
-.playwrite {
-  font-family: "Playwrite US Modern";
-}
 
 .inter {
   font-family: "Inter";
-}
-
-.rocksalt {
-  font-family: "Rock Salt", cursive;
 }
 
 .container {
@@ -48,26 +42,19 @@ a {
 
 .home-container {
   display: flex;
-  /* background-color: red; */
   width: 820px;
   gap: 28px;
   overflow: hidden;
-  /* position: absolute; */
 }
 
-.home-container.shifted > * {
-  transform: translateX(-480px);
-  transition: transform 0.5s ease;
-}
-
-.home-container > * {
-  transition: transform 0.5s ease;
+.text-section {
+  padding: 40px 0;
 }
 
 .greeting {
   font-size: 48px;
   font-weight: 600;
-  margin-bottom: -24px;
+  margin-bottom: -12px;
 }
 
 .name-title {
@@ -88,8 +75,11 @@ a {
 }
 
 .about-me-button {
+  margin-top: 12px;
+  padding: 8px;
+  border-radius: 12px;
   font-size: 24px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .profile-img {
@@ -126,9 +116,6 @@ a {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-top: -40px;
-  /* background-color: rebeccapurple; */
-  /* display: none; */
 }
 
 .about-me-title {
